@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+header{
+    background-color: rgb(12, 155, 250);
+    margin: 0 auto;
+    height: 150px;
+    text-align: center;
+    justify-content: left;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.952);
+    font-weight: bolder;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+}
+
+.config-header{
+   display: flex;
+   gap: 15px;
+}
+
+#first-bottom{
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+img{
+    height: 150px;
+    border-radius: 80px;
+}
+
+.header-topo{
+    padding-top: 60px;
+}
+
+body{
+    background-color: rgba(255, 238, 238, 0);
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.text-body{
+    padding-top: 15px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding: 15px 10px;
+    line-height: 1.3;
+    font-size: 1.2rem;
+}
+
+.img-ilustration{
+    border-radius: 0px;
+    height: 190px;
+}
+
+.space-article{
+    display: table;
+    gap: 5px;
+}
+
+
+.config-body{
+    width: 70%;
+    margin: auto;
+}
+
+.config-h1{
+    color: rgba(15, 27, 92, 0.842);
+    font-weight: bolder;
+}
+
+.title-header{
+    color: hsl(234, 69%, 33%);
+    font-weight: 600;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.config-radius-bottom{
+    border: 2px transparent rgb(196, 184, 184);
+    background-color: rgba(28, 180, 250, 0.973);
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding: auto;
+}
+
+footer {
+	background-color: rgb(12, 155, 250);
+	color: whitesmoke;
+	text-align: center;
+    width: 70%;
+    margin: auto;
+    height: 150px;
+    font-size: 21px;
+    border: 2px solid white;
+}
+
+.config-footer{
+    margin-top: 20rem;
+    padding-top: 50px;
+}
+
+/*DOC-PDF*/
+.config-titledocPdf{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(20, 19, 19);
+}
+
+/*MISSÃO-about*/
+.config-mission{
+    padding-top: 1.3rem;
+    line-height: 1.7rem;
+}
+
+#config-mission{
+    color: black;
+    font-size: 1.1rem; 
+    font-weight: none;
+}
+
+li.space-top{
+    padding-top: 15px;
+}
+
+/*CONTACT.HTML*/
+
+.config-h1{
+    padding: 18px;
+    color: black;
+    font-size: x-large;
+}
+
+.name-fone-email{
+    font-size: 1.13rem;
+}
+
+#config-contact{
+    background-color: transparent;
+    color: black;
+}
+
+.config-contact{
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.padding-top{
+    padding-top: 6px;
+    font-weight: 350;
+}
+
+.form-config{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column-reverse; */
+    padding-bottom: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    color: black;
+}
+
+.config-span{
+    display: flex;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: rgb(59, 196, 250);
+    max-width: 500px;
+    margin-left: 18px;
+    border-radius: 6px;
+    display: block;
+    padding-bottom: 0.2px;
+    padding-right: 18px;
+    
+}
+
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 18px;
+    margin-top: 4px;
+    margin-bottom: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    display: block;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #e4e4b8;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #f8f8f8;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+    margin-left: 21.39rem;
+    font-size: 0.9rem;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color:black;
+    font-weight: 520;
+}
+
+/*Doc-PDF*/
+
+.generate-pdf{
+    justify-content: center;
+    align-items: center;
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    background-color:  rgb(12, 155, 250);
+    cursor: pointer;
+    color: white;
+    width: 10rem;
+    height: 3.5rem;
+    border: transparent;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+}
+
+button:hover{
+    background-color:  white;
+    cursor: pointer;
+    color: rgb(12, 155, 250);
+    width: 10rem;
+    height: 3.5rem;
+    border: 0.2rem solid rgb(12, 155, 250);
+    border-radius: 0.9rem;
+    font-size: 1.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.05rem rgb(12, 155, 250);
+}
